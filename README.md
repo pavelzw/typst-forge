@@ -44,7 +44,7 @@ You can now run Typst using `pixi run typst`.
 
 With typst added you can add a package. All typst packages names are prefixed with `typst-`
 ```sh
-$ pixi add "typst-matryoshka==0.1.0"
+$ pixi add 'typst-matryoshka==0.1.0'
 ✔ Added typst-matryoshka
 ```
 When adding typst packages you should always specify a version. This is because Typst doesn't support import without version specification, you will need to manually keep your Typst imports and pixi dependencies in sync.
